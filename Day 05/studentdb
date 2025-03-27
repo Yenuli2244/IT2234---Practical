@@ -1,0 +1,7 @@
+let students = [
+    {regno:'2021ICT01',name:'James',gender:'male',course:'IT'},
+    {regno:'2021ICT02',name:'Emma',gender:'female',course:'ENS'},
+    {regno:'2021ICT03',name:'John',gender:'male',course:'CS'},
+    {regno:'2021ICT04',name:'Anne',gender:'female',course:'IT'},
+    {regno:'2021ICT05',name:'Bob',gender:'male',course:'CS'}
+];
