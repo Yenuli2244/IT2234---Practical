@@ -1,14 +1,3 @@
-/*Promise
-is object from a operation
-
-mention the status of the operation
-
-3 states:
-    1 pending/ waiting
-    2 fulfilled/ resolved - done 
-    3 rejected/ error 
-    */
-
 const fs = require('fs').promises;
 
 const readFile = (filepath)=>{
