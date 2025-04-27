@@ -1,4 +1,4 @@
-![Screenshot (157)](https://github.com/user-attachments/assets/1eda7fa7-daf3-42a9-91fa-6b3a8b2a456a)# Database Name : UniDB
+# Database Name : UniDB
 # Collections : students
 
 (01)Insert one data set using Insert Document option in MongoDB. 
