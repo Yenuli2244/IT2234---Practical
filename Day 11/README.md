@@ -83,8 +83,8 @@ iii).```db.degrees.find().projection([{'name':1},{'_id':-1}])``` This command is
 
 ## 🖍️ 7. Update One Document
 ```db.degrees.updateOne({_id:ObjectId('681a3a350b635026ae4a2a1a')},{$set:{name:'BIT',duration:3}})```` This command is used to update one document in the ```degrees``` collection with the specific``` _id``` to set:
-- ```name``` as ```'BIT'```
-- ```duration``` as ```3```
+  - ```name``` as ```'BIT'```
+  - ```duration``` as ```3```
 
 - ```updateOne(...)``` → Updates only the first matching document
 - ```{ _id: ObjectId('...') }``` → Finds the document by its unique ID
