@@ -7,6 +7,7 @@
   - All collections (tables)
   - All documents (records)
   - All indexes
+    
 ![Screenshot (190)](https://github.com/user-attachments/assets/658115f5-8cf1-45d3-b934-b4ab7c78ffdf)
 
 ## 📁 2.Delete the collection
@@ -20,6 +21,7 @@
 - Deletes the collection named sampledata.
 - All documents inside it are removed.
 - Indexes on the collection are removed.
+  
 ![Screenshot (191)](https://github.com/user-attachments/assets/f49837c8-e760-45d7-833d-8dc436a625d4)
 
   
