@@ -5,6 +5,52 @@
 ![Screenshot (207)](https://github.com/user-attachments/assets/c060aa76-900c-410a-be99-f0df964a848d)
 
 ## (03)insert the following data
+{
+  "title": "The Hobbit",
+  "author": "J.R.R. Tolkien",
+  "published_year": 1937,
+  "genres": ["Fantasy", "Adventure"],
+  "pages": 310,
+  "available": true,
+  "rating": 4.8
+}
+
+  {
+    "title": "1984",
+    "author": "George Orwell",
+    "published_year": 1949,
+    "genres": ["Dystopian", "Political Fiction"],
+    "pages": 328,
+    "available": true,
+    "rating": 4.7
+  },
+  {
+    "title": "To Kill a Mockingbird",
+    "author": "Harper Lee",
+    "published_year": 1960,
+    "genres": ["Southern Gothic", "Drama"],
+    "pages": 281,
+    "available": false,
+    "rating": 4.6
+  },
+  {
+    "title": "The Great Gatsby",
+    "author": "F. Scott Fitzgerald",
+    "published_year": 1925,
+    "genres": ["Tragedy"],
+    "pages": 180,
+    "available": true,
+    "rating": 4.4
+  },
+  {
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "published_year": 1932,
+    "genres": ["Science Fiction", "Dystopian"],
+    "pages": 311,
+    "available": true,
+    "rating": 4.2
+  }
 ![Screenshot (208)](https://github.com/user-attachments/assets/f93b39ba-32e6-4f55-b31d-53e573e623c1)
 ![Screenshot (209)](https://github.com/user-attachments/assets/8317504c-b74a-4fbe-bf85-a9faad8ffdf6)
 ![Screenshot (210)](https://github.com/user-attachments/assets/ef64a07a-243e-48ba-b212-c853a9bdce8c)
