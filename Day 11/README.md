@@ -31,9 +31,10 @@
 - ```deleteOne()``` – Deletes only the first matching document.
 - ```{_id: ObjectId('...')}``` – Specifies the document to delete by its unique ```_id``` (MongoDB uses ObjectId for ```_id``` by default).
 
-![Screenshot (196)](https://github.com/user-attachments/assets/642bd2c9-8aed-44e8-9d2f-37cf1f79894b)
+![Screenshot (196)1](https://github.com/user-attachments/assets/a97f63fe-937c-4a41-8cfd-1c54d197433f)
 
 ## 🔍 4. Field Projection
+
 
 
 
