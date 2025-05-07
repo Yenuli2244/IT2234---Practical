@@ -100,74 +100,74 @@ db.books.insertMany(
 
 (04)Find all books
 
-Query:
-db.books.find()
+      Query:
+      db.books.find()
 
 
 (05)Find all books published after 1950
 
-Query:
-db.books.find({published_year:{$gt:1950}})
+      Query:
+      db.books.find({published_year:{$gt:1950}})
 
 
 (06)Find the avilable books
 
-Query:
-db.books.find({available:true})
+      Query:
+      db.books.find({available:true})
 
 
 (07)Find all books that belong to the "Dystopian" genre
 
-Query:
-db.books.find({genres:"Dystopian"})
+      Query:
+      db.books.find({genres:"Dystopian"})
 
 
 (08)Find the books which published after 1960 and had rating more than 4.0
 
-Query:
-db.books.find({ published_year: { $gt: 1960 }, rating: { $gt: 4.0 } })
+      Query:
+      db.books.find({ published_year: { $gt: 1960 }, rating: { $gt: 4.0 } })
 
 
 (09)Project only title and author fields:
 
-Query:
-db.books.find({}, { title: 1, author: 1, _id: 0 })
+      Query:
+      db.books.find({}, { title: 1, author: 1, _id: 0 })
 
 
 (10)Update the book "1984" to set available: false:
 
-Query:
-db.books.updateOne({ title: "1984" }, { $set: { available: false } })
+      Query:
+      db.books.updateOne({ title: "1984" }, { $set: { available: false } })
 
 
 (11)Increase the rating of "Brave New World" by +0.1:
 
-Query:
-db.books.updateOne({ title: "Brave New World" }, { $inc: { rating: 0.1 } })
+      Query:
+      db.books.updateOne({ title: "Brave New World" }, { $inc: { rating: 0.1 } })
 
 
 (12)Add a new genre "Classic" to "The Great Gatsby":
 
-Query:
-db.books.updateOne(
-  { title: "The Great Gatsby" },
-  { $addToSet: { genres: "Classic" } }
-)
+      Query:
+      db.books.updateOne(
+        { title: "The Great Gatsby" },
+        { $addToSet: { genres: "Classic" } }
+      )
 
 
 (13)Sort books by published_year ascending:
 
-Query:
-db.books.find().sort({ published_year: 1 })
+      Query:
+      db.books.find().sort({ published_year: 1 })
 
 
 (14)Sort books by rating descending:
 
-Query:
-db.books.find().sort({ rating: -1 })
+    Query:
+    db.books.find().sort({ rating: -1 })
 
 
 (15)Delete all books with a rating lower than 4.5:
 
-Query:
-db.books.deleteMany({ rating: { $lt: 4.5 } })
+    Query:
+    db.books.deleteMany({ rating: { $lt: 4.5 } })
