@@ -55,11 +55,13 @@ ii). ```db.degrees.find().projection(['name'])``` This command is used to retrie
 iii).```db.degrees.find().projection([{'name':1},{'_id':-1}])``` This command is used to retrieves only the ```name``` field from each document in the ```degrees``` collection.
 
 ### ✅ Why Use It?
-- To fetch only the name field from each document.
-- To exclude the default _id field from the results.
-- Useful for displaying clean lists, dropdowns, or exports where _id is not needed.
+- To fetch only the ```name``` field from each document.
+- To exclude the default ```_id``` field from the results.
+- Useful for displaying clean lists, dropdowns, or exports where ```_id``` is not needed.
 
 ![Screenshot (198)](https://github.com/user-attachments/assets/c996a9e7-eee3-47d0-aadd-11e7b4b79d2d)
+
+## 🎯 5. Select Certain Fields
 
 
 
