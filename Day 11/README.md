@@ -1,2 +1,3 @@
-# 📋 1. Delete a Database
+# 📖 Lecture Time Queries --> MongoDB_Queries.txt
+## 🗑️ 1. Delete the Database
 
