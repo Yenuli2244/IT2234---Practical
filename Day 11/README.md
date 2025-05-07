@@ -34,6 +34,44 @@
 ![Screenshot (196)1](https://github.com/user-attachments/assets/a97f63fe-937c-4a41-8cfd-1c54d197433f)
 
 ## 🔍 4. Field Projection
+i). ```db.degrees.find({}, { name: 1, duration: 1 })``` This command is used to retrieve only specific fields (```name``` and ```duration```) from all documents in the ```degrees``` collection. 
+
+### ✅ Why Use It:
+- To view only the necessary fields, not the entire document.
+- Helps in reducing data transfer, especially when documents have many fields.
+- Makes query results easier to read and work with.
+
+![Screenshot (196)](https://github.com/user-attachments/assets/2dd5ed06-7b7b-447d-bb60-3dc80a37e47a)
+
+ii). ```db.degrees.find().projection(['name'])``` This command is used to retrieve only the ```name``` field from all documents in the ```degrees``` collection (along with ```_id``` by default).
+
+### ✅ Why Use It?
+- To focus on specific data (e.g., only degree names)
+- To reduce the amount of data returned (faster queries, especially in large collections)
+- Useful in reports, dropdowns, or lists where only one field (like names) is needed
+
+![Screenshot (197)](https://github.com/user-attachments/assets/fc094f2b-9bcc-45a9-832c-bde712a2e4e6)
+
+iii).```db.degrees.find().projection([{'name':1},{'_id':-1}])``` This command is used to retrieves only the ```name``` field from each document in the ```degrees``` collection.
+
+### ✅ Why Use It?
+- To fetch only the name field from each document.
+- To exclude the default _id field from the results.
+- Useful for displaying clean lists, dropdowns, or exports where _id is not needed.
+
+![Screenshot (198)](https://github.com/user-attachments/assets/c996a9e7-eee3-47d0-aadd-11e7b4b79d2d)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
