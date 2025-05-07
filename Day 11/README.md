@@ -86,6 +86,7 @@ iii).```db.degrees.find().projection([{'name':1},{'_id':-1}])``` This command is
   - ```name``` as ```'BIT'```
   - ```duration``` as ```3```
 
+
 - ```updateOne(...)``` → Updates only the first matching document
 - ```{ _id: ObjectId('...') }``` → Finds the document by its unique ID
 - ```$set: { name: 'BIT', duration: 3 }``` → Modifies or adds these fields
