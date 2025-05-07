@@ -27,9 +27,9 @@
 ## 📝 3. Delete a Document
 ```db.degrees.deleteOne({_id:ObjectId('681a3cc10b635026ae4a2a1f')})``` This command is used to delete a single document from the ```degrees``` collection, based on its ```_id```.
 
-- db.degrees – Refers to the degrees collection in the current database.
-- deleteOne() – Deletes only the first matching document.
-- {_id: ObjectId('...')} – Specifies the document to delete by its unique _id (MongoDB uses ObjectId for _id by default).
+- ```db.degrees``` – Refers to the ```degrees``` collection in the current database.
+- ```deleteOne()``` – Deletes only the first matching document.
+- ```{_id: ObjectId('...')}``` – Specifies the document to delete by its unique ```_id``` (MongoDB uses ObjectId for ```_id``` by default).
 
 ![Screenshot (196)](https://github.com/user-attachments/assets/642bd2c9-8aed-44e8-9d2f-37cf1f79894b)
 
