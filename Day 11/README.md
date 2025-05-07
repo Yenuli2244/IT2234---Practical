@@ -13,12 +13,15 @@
 ```db.sampledata.drop()``` This command in MongoDB is used to delete a specific collection in the current database.
 
 - ```db```  refers to the current database you're using.
-
 - ```sampledata``` is the name of the collection you want to delete.
-
 - ```.drop()``` deletes that collection entirely.
 
-### ✅ 
+### ✅ What it does:
+- Deletes the collection named sampledata.
+- All documents inside it are removed.
+- Indexes on the collection are removed.
+![Screenshot (191)](https://github.com/user-attachments/assets/f49837c8-e760-45d7-833d-8dc436a625d4)
+
   
 
 
