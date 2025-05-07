@@ -5,6 +5,7 @@
 ![Screenshot (207)](https://github.com/user-attachments/assets/c060aa76-900c-410a-be99-f0df964a848d)
 
 ## (03)insert the following data
+
 {
   "title": "The Hobbit",
   "author": "J.R.R. Tolkien",
@@ -51,6 +52,7 @@
     "available": true,
     "rating": 4.2
   }
+  
 ![Screenshot (208)](https://github.com/user-attachments/assets/f93b39ba-32e6-4f55-b31d-53e573e623c1)
 ![Screenshot (209)](https://github.com/user-attachments/assets/8317504c-b74a-4fbe-bf85-a9faad8ffdf6)
 ![Screenshot (210)](https://github.com/user-attachments/assets/ef64a07a-243e-48ba-b212-c853a9bdce8c)
