@@ -82,7 +82,7 @@ iii).```db.degrees.find().projection([{'name':1},{'_id':-1}])``` This command is
 ![Screenshot (201)](https://github.com/user-attachments/assets/7daf7080-d3ed-43d1-bb15-f9ea8de636d4)
 
 ## 🖍️ 7. Update One Document
-```db.degrees.updateOne({_id:ObjectId('681a3a350b635026ae4a2a1a')},{$set:{name:'BIT',duration:3}})```` This command is used to update one document in the ```degrees``` collection with the specific``` _id``` to set:
+```db.degrees.updateOne({_id:ObjectId('681a3a350b635026ae4a2a1a')},{$set:{name:'BIT',duration:3}})``` This command is used to update one document in the ```degrees``` collection with the specific``` _id``` to set:
   1. ```name``` as ```'BIT'```
   2. ```duration``` as ```3```
 
